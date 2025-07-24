@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "Silva~9QJUEZpT#eQgc6CCE1tSiaCA9Sonj8IRd1KvS7SpEyJXFuxpdyDE",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -31,13 +31,13 @@ BOT_NAME: process.env.BOT_NAME || "Silva Md Bot",
 // add bot namw here for menu
 STICKER_NAME: process.env.STICKER_NAME || "silva md bot",
 // type sticker pack name 
-CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
+CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,💔,🤍,😂,🙏⚡,🫦,🖕,",
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "254700143167",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "923049280985",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "silva tech inc",
 // add bot owner name
@@ -47,7 +47,7 @@ ALIVE_IMG: process.env.ALIVE_IMG || "https://i.imgur.com/RvEKtPJ.jpeg",
 // add img for alive msg
 LIVE_MSG: process.env.LIVE_MSG || "> i am a beta version of silva md bot silva md bot original under maintenance*⚡",
 // add alive msg here 
-READ_MESSAGE: process.env.READ_MESSAGE || "true",
+READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
 AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
@@ -61,9 +61,9 @@ AUTO_VOICE: process.env.AUTO_VOICE || "false",
 // make true for send automatic voices
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // make true for automatic stickers 
-AUTO_REPLY: process.env.AUTO_REPLY || "true",
+AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
 PUBLIC_MODE: process.env.Public_MODE || "true",
 // make false if want private mod
